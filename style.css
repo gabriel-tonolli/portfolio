@@ -1,0 +1,730 @@
+.form-control:focus {
+	border-color: #cccccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+  }
+
+.area-contato{
+	border-radius: 20px; 
+	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	color:#757575;
+	font-size: 20px;
+	background-color: white;
+
+
+}
+
+.area-contato form button{
+	width: 150px;
+	background-color: #000000;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	border: 1px solid #000000;
+
+}
+
+.area-contato form button:hover{
+	background-color: #000000;
+	opacity: 0.8;
+	color: white;
+border: 1px solid #000000;
+
+}
+
+
+
+@media (max-width: 575.98px){
+	.row-contato {
+		background-position:initial;
+	
+	}
+
+	.area-contato{
+		font-size: 15px;
+	}
+
+	.area-contato form button{
+		width: 100px;
+		
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){  
+   .area-contato{
+		font-size: 18px;
+	}
+
+	.area-contato form button{
+		width: 130px;
+	
+	}
+}
+
+/*
+.modal-dialog{
+    min-width: 70vw;
+ }*/
+ .area-educacao{
+    padding: 30px;
+}
+
+.curso-ano{
+    font-weight: bold;
+}
+
+
+@media (max-width: 575.98px){
+.educacao-nome{
+    font-size: 30px;
+}
+
+.instituicao-nome{
+    font-size: 18px;
+}
+
+.curso-nome{
+    font-size: 10px;
+}
+
+.curso-ano{
+    font-size: 15px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+
+    .educacao-nome{
+        font-size: 40px;
+    }
+    
+    .instituicao-nome{
+        font-size: 20px;
+    }
+    
+    .curso-nome{
+        font-size: 15px;
+    }
+    
+    .curso-ano{
+        font-size: 15px;
+    }
+}
+
+/*Fontes salvar 
+font-family: 'Amatic SC', cursive;
+*/
+*, 
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+
+}
+
+
+
+body{
+	 background-color: #eceff1b4 ;
+	/*background-image:linear-gradient(to right,#dbdcddbe, #dbdcdd9a);  /*(to right,#e0c2ce9c, #ce6c8bb0*/
+	/*background-color: rgba(219, 212, 212, 0.76);*/
+}
+
+*, 
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+
+}
+
+
+.area-home-col{
+	height: 100vh;
+}
+
+.foto{
+	/*margin-top: 120px;*/
+	border-radius: 100%;
+	width: 230px;
+	border: 6px solid white;
+	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
+}
+
+
+.home-nome{
+	color: #000;
+	font-size: 35px;
+}
+
+.front-nome{
+	color:#757575;
+}
+
+
+.span::before
+{
+    content: '';
+    animation: word-swith 4s infinite;
+}
+
+
+
+@keyframes word-swith
+{
+    0% {content: '💻'}
+
+    25%{content: '🎮';}
+
+    50%{content: '💻';}
+
+    75%{content: '🎮';}
+
+	100%{content: '💻';}
+
+	
+	
+}
+
+.icone-span{
+	font-size: 20px;
+}
+
+
+
+
+/*/////////////////////// HOME COL 2 ////////////////////////////////*/
+
+.titulo-col2{
+	margin-top: 15%;
+	font-size: 40px;
+	
+}
+
+.table-style{
+	width: 400px; 
+	background: rgba(255, 255, 255, 0.589) ;
+	font-size: 15px;
+	box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+table{
+    
+    border-radius: 10px;
+	/*box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   */
+}	
+
+
+.skills li{
+	margin: 20px 0;
+    width: 400px;
+  
+}
+
+.code{
+	padding: 6px;	
+	color:#757575;
+	font-weight: bold;
+    font-size: 14px;
+    
+
+}
+.regresso{
+	width: 400px;
+	padding: 5px;
+}
+
+
+
+.bar{
+	background-color: white;
+	display: block;
+	height: 10px;
+	border:  1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	overflow: hidden;
+
+}
+
+.bar span{
+	height:10px;
+	float: left;
+	background-color:#5f5a5a; 
+
+}
+
+.python{
+	width: 75%;
+	animation: python 4s;
+}
+
+.django{
+	width: 55%;
+	animation: django 4s;
+}
+
+.html{
+	width: 50%;
+	animation: html 4s;
+}
+
+.css{
+	width: 45%;
+	animation: css 4s;
+}
+
+.boots{
+	width: 35%;
+	animation: boots 4s;
+}
+
+
+.javas{
+	width: 20%;
+	animation: javas 4s;
+}
+
+.postgres{
+	width: 20%;
+	animation: postgres 4s;
+}
+
+.nodejs{
+	width: 5%;
+	animation: nodejs 4s;
+}
+
+.react{
+	width: 5%;
+	animation: react 4s;
+}
+
+@keyframes python{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 75%;
+	}
+}
+
+@keyframes django{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 55%;
+	}
+}
+
+@keyframes html{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+
+@keyframes css{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 45%;
+	}
+}
+
+@keyframes boots{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 35%;
+	}
+}
+
+@keyframes javas{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 20%;
+	}
+}
+
+@keyframes postgres{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 20%;
+	}
+}
+
+@keyframes nodejs{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 5%;
+	}
+}
+
+@keyframes react{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 5%;
+	}
+}
+
+.btn-skills{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 65px;
+    width: 250px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+
+
+@media (max-width: 575.98px){
+	.area-home-col{
+		height: auto;
+	    margin-top: 10%;
+		margin-bottom: 10%;
+		  }
+
+
+	.table-style{
+	width: 300px; 
+	font-size: 12px;
+		
+	}
+	
+	.foto{
+	width: 180px; 
+	margin-top: 15px;
+		
+	}
+
+	.home-nome{
+		font-size: 30px;
+	}
+
+	.front-nome{
+		font-size: 20px;	
+	}
+
+	.icone-span{
+		font-size: 12px;
+	}
+
+
+	
+	.titulo-col2{
+		font-size: 35px;
+		margin-top: -5%;
+	}
+
+	
+	.regresso{
+		width: 250px;
+	}
+	
+	.skills li{
+		width: 250px;
+	}
+	
+	.btn-skills{
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+		border-radius: 30px;
+		height: 55px;
+		width: 180px;
+		margin-top: 40px;
+		text-decoration: none;
+		box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+	}
+	
+	
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 992px){  
+	.area-home-col{
+		height: auto;
+		margin-top: 10%;
+		margin-bottom: 10%;
+
+		  }
+
+
+	.foto{
+		width: 200px; 
+	
+			
+		}
+
+	.table-style{
+		width: 350px; 
+		font-size: 14px;
+			
+		}
+		
+		.icone-span{
+			font-size: 14px;
+		}
+	
+		
+		.regresso{
+			width: 300px;
+		}
+		
+		.skills li{
+			width: 300px;
+		}
+		
+		.btn-skills{
+			font-size: 22px;
+			font-weight: bold;
+			text-decoration: none;
+			border-radius: 30px;
+			height: 60px;
+			width: 200px;
+			margin-top: 40px;
+			text-decoration: none;
+			box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);   
+		}
+
+}
+
+
+.menu{
+	box-shadow: 2px 4px 4px 2px rgba(2, 2, 2, 0.25);
+
+	
+	
+}
+
+nav ul li .nav-nome {
+	font-size: 18px;
+	border-bottom: 3px solid white ;
+}
+
+nav ul li .nav-nome:hover{
+	border-bottom: 3px solid #000000 ;
+
+}
+
+nav ul li .nav-cv {
+	text-align: center;
+	width: 110px;
+	font-size: 14px;
+	background-color: #000000cc; 
+	border-radius:20px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav ul li .nav-cv:hover{
+	background-color: #000000;	
+}
+
+
+
+
+@media (max-width: 575.98px){
+	nav ul li .nav-nome {
+	font-size: 16px;
+	border-bottom: 2px solid white;}
+
+    nav ul li .nav-nome:hover{
+	    border-bottom: 2px solid #000000;}
+
+    nav ul li .nav-cv {
+	    width: 90px;
+	    font-size: 12px;
+	    border-radius:20px;
+	    padding: 8px;}
+}
+
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.zoom-container img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.zoom-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.7);
+}
+
+.btn-projetos{
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-projetos:hover{  
+   opacity: 0.8;
+   color: white;
+}
+
+@media (max-width: 575.98px){
+.projetos-nome{
+font-size: 30px;}
+}
+
+@media (min-width: 576px) and (max-width: 992px){ 
+.projetos-nome{
+    font-size: 40px;}
+}
+
+@media (max-width: 575.98px){
+    .rodape-nome{
+    font-size: 12px;}
+}
+    
+@media (min-width: 576px) and (max-width: 992px){ 
+    .rodape-nome{
+        font-size: 18px;}
+}
+
+
+.area-sobremim-texto{
+	height: 100vh;
+}
+
+.texto-sobremim{
+	font-size: 22px;
+	font-family: 'Kanit', sans-serif;
+	color:#757575;
+	
+}
+
+
+.img-sobremim{
+	border: 8px solid #000000;
+	opacity: 0.9;
+	box-shadow: 4px 4px 4px 4px rgba(2, 2, 2, 0.25);
+}
+
+.sobremim-nome{
+	color: #000000;
+	font-size: 40px;
+}
+
+.logo-redes{
+	color:#757575;
+}
+
+.card-redes{
+	background-color: #eceff1a1;
+}
+
+
+
+
+@media (max-width: 575.98px){
+
+.area-sobremim-texto{
+  height: auto;
+  padding-top:10% ;
+	}
+
+.area-sobre-img{
+  margin-bottom: 5%;
+
+ }
+
+
+.img-sobremim{
+	width: 230px;
+
+}
+
+.coffee{
+	width: 140px;
+}
+
+.coracao{
+	width: 32px;
+}
+
+.pac{
+ width: 40px;
+}
+
+.sobremim-nome{
+	font-size: 30px;
+}
+.texto-sobremim{
+	font-size: 18px;
+ 
+}
+
+
+}
+
+@media (min-width: 576px) and (max-width: 992px){  
+  
+	  .img-sobremim{
+		  width: 260px;
+	  
+	  }
+	  
+	  .coffee{
+		  width: 150px;
+	  }
+	  
+	  .coracao{
+		  width: 36px;
+	  }
+	  
+	  .pac{
+	   width: 45px;
+	  }
+	  
+	  .sobremim-nome{
+		  font-size: 40px;
+	  }
+	  .texto-sobremim{
+		  font-size: 20px;
+	   
+	  }
+
+}
